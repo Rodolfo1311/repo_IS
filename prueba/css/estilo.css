@@ -1,0 +1,111 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    display: flex;
+    background-color: cornsilk;
+    flex-flow: column;
+    /* flex-wrap: nowrap; */
+    
+}
+
+.head{
+    display: flex;
+    flex-flow: column;
+}
+
+.menu{
+    background-color: rgb(224, 81, 224);
+    display:flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: flex;
+    color: white;
+    margin-left: 35px;
+}
+
+.item{
+   display: flex;  
+}
+
+.mia{ 
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    padding: 25px 10px;
+    display: block;
+}
+
+.mia:hover{
+    background-color: rgb(157, 93, 218);
+    padding: 10px;
+}
+
+.ima{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.enmedio{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.misp{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+.parra{
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 55px 25px;
+    border-radius: 7px;
+    width: 40%;
+    text-align: center;
+    align-self: center;
+    box-shadow: 5px 5px lightcoral;
+    
+}
+
+.lado{
+    margin-top: 10px;
+display: flex;
+flex-wrap: wrap; 
+ width:25%;  
+ justify-content: center;
+}
+
+.ladoim{
+    width: 100%;
+}
+
+.futmed{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    background-color: hotpink;
+}
+
+.final{
+    text-align: center;
+}
+

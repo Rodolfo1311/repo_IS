@@ -1,0 +1,81 @@
+.padre{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
+.columnas{
+    width: 21%; 
+    margin: 0px 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px 2px violet;
+}
+
+.texto{
+    text-align: center;
+    color: black;
+}
+
+.textod{
+    color:blueviolet;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+.col{
+    color: cyan;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.compra{
+    display: block;
+    background-color: rgb(100, 46, 248);
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 5px;
+    margin: 10px 30px;
+}
+
+.compra:hover{
+    background-color: darkviolet;
+    margin: 0px 25px;
+}
+
+.compra:active{
+    background-color: deeppink;
+}
+
+@media only screen and (max-width: 1076px){
+    .columnas{
+        width: 45%; 
+        margin: 0px 15px;
+        margin-bottom: 20px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 30px;
+        box-shadow: 10px 10px 2px violet;
+    }    
+    }
+    
+    @media only screen and (max-width: 900px){
+        .columnas{
+            width: 75%; 
+            margin: 0px 15px;
+            margin-bottom: 20px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 30px;
+            box-shadow: 10px 10px 2px violet;
+        }    
+        }
+        
