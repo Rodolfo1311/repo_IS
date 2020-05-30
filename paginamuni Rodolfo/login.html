@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi muni login</title>
+
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+    <script>
+  
+        var firebaseConfig = {
+          apiKey: "AIzaSyCFglIWoXMrXjuR5eJcIldjqkqLR9iH7fQ",
+          authDomain: "muni-6f81d.firebaseapp.com",
+          databaseURL: "https://muni-6f81d.firebaseio.com",
+          projectId: "muni-6f81d",
+          storageBucket: "muni-6f81d.appspot.com",
+          messagingSenderId: "750603385804",
+          appId: "1:750603385804:web:42777940547a95f68f3b69",
+          measurementId: "G-RMM1NPM6C4"
+        };
+     
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+</head>
+<body>
+
+    <h4>Registrate</h4>
+    <input type="email" placeholder="ingresa tu email" id="email">
+    <input type="password" placeholder="ingresa tu contraseña" id="contra">
+    <button onclick="registrar()">Registrarme</button>
+  
+
+    <h4>inicia secion</h4>
+    <input type="email" placeholder="ingresa tu email" id="em">
+    <input type="password" placeholder="ingresa tu contraseña" id="contras">
+    <button onclick="ingresar()">iniciar secion</button>
+
+    <script src="app.js"></script>
+    
+    <div id="hola">
+
+    </div>
+
+</body>
+</html>
